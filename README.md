@@ -1,5 +1,5 @@
 ## Bitcoin Wallet Generator
-Run:
+To Generate a Bitcoin Wallet Address Pair Randomly Type:
 ```
 python wallet_gen.py
 ```
