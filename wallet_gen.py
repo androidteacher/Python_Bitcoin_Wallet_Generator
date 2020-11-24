@@ -56,10 +56,10 @@ def pubKeyToAddr(s):
 def keyToAddr(s):
     return pubKeyToAddr(privateKeyToPublicKey(s))
 
-# Comment this Line Generate a random private key
+# Comment this Line to no longer Generate a random private key
 private_key = os.urandom(32).encode('hex')
 
-# Uncomment This Line to Generate an Address Set for a Static 64 Character Key You Choose.
+# Uncomment This Line to Generate a 'not so random' 64 Character Key.
 # The Private Key of 0x1 seen below has contained as many  as 7.8 bitcoin.
 #
 #private_key = "0000000000000000000000000000000000000000000000000000000000000001"
